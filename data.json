@@ -1,0 +1,318 @@
+[
+  {
+    "data": {
+      "id": "pawel",
+      "name": "Pawel",
+      "private": true
+    },
+    "position": {
+      "x": 481.0169597039117,
+      "y": 384.8210888234145
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "id": "bi",
+      "name": "Business Intelligence",
+      "private": false
+    },
+    "position": {
+      "x": 531.9740635094307,
+      "y": 464.8210898234145
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "id": "js",
+      "name": "JavaScript",
+      "private": false
+    },
+    "position": {
+      "x": 531.9740635094307,
+      "y": 464.8210898234145
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "id": "illustrations",
+      "name": "Illustrations",
+      "private": true
+    },
+    "position": {
+      "x": 531.9740635094307,
+      "y": 464.8210898234145
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "id": "py",
+      "name": "Python",
+      "private": false
+    },
+    "position": {
+      "x": 531.9740635094307,
+      "y": 464.8210898234145
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "id": "ux",
+      "name": "UX",
+      "private": false
+    },
+    "position": {
+      "x": 531.9740635094307,
+      "y": 464.8210898234145
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "id": "r",
+      "name": "R/R-Shiny",
+      "private": false
+    },
+    "position": {
+      "x": 531.9740635094307,
+      "y": 464.8210898234145
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "bi",
+      "weight": 1,
+      "score": 1,
+      "group": "pro",
+      "id": "e0",
+      "label": "knows"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "js",
+      "weight": 1,
+      "score": 6,
+      "group": "pro",
+      "id": "e1",
+      "label": "knows"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "ux",
+      "weight": 1,
+      "score": 1,
+      "group": "pro",
+      "id": "e3"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "py",
+      "weight": 1,
+      "score": 2,
+      "group": "pro",
+      "id": "e4",
+      "label": "knows"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "py",
+      "weight": 1,
+      "score": 4,
+      "group": "pro",
+      "id": "e5",
+      "label": "likes"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "r",
+      "weight": 1,
+      "score": 2,
+      "group": "pro",
+      "id": "e6",
+      "label": "knows"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "r",
+      "weight": 1,
+      "score": 6,
+      "group": "pro",
+      "id": "e7",
+      "label": "likes"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "js",
+      "weight": 1,
+      "score": 6,
+      "group": "pro",
+      "id": "e8",
+      "label": "likes"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "illustrations",
+      "weight": 1,
+      "score": 10,
+      "group": "priv",
+      "id": "e9",
+      "label": "knows"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "illustrations",
+      "weight": 1,
+      "score": 10,
+      "group": "priv",
+      "id": "e10",
+      "label": "likes"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  }
+]

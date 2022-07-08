@@ -1,0 +1,119 @@
+[{
+  "selector": "core",
+  "style": {
+    "selection-box-color": "#AAD8FF",
+    "selection-box-border-color": "#8BB0D0",
+    "selection-box-opacity": "0.5"
+  }
+}, {
+  "selector": "node",
+  "style": {
+    "width": "mapData(score, 0, 0.006769776522008331, 20, 60)",
+    "height": "mapData(score, 0, 0.006769776522008331, 20, 60)",
+    "content": "data(name)",
+    "font-size": "12px",
+    "text-valign": "center",
+    "text-halign": "center",
+    "background-color": "#164C45",
+    "text-outline-color": "#164C45",
+    "text-outline-width": "2px",
+    "color": "#fff",
+    "overlay-padding": "6px",
+    "z-index": "10"
+  }
+}, {
+  "selector": "node[?attr]",
+  "style": {
+    "shape": "rectangle",
+    "background-color": "#aaa",
+    "text-outline-color": "#aaa",
+    "width": "16px",
+    "height": "16px",
+    "font-size": "6px",
+    "z-index": "1"
+  }
+}, {
+  "selector": "node[?query]",
+  "style": {
+    "background-clip": "none",
+    "background-fit": "contain"
+  }
+}, {
+  "selector": "node:selected",
+  "style": {
+    "border-width": "6px",
+    "border-color": "#AAD8FF",
+    "border-opacity": "0.5",
+    "background-color": "#77828C",
+    "text-outline-color": "#77828C"
+  }
+}, {
+  "selector": "edge",
+  "style": {
+    "curve-style": "bezier",
+		"target-arrow-shape": "triangle",
+    "opacity": "1",
+    "line-color": "#fff",
+    "background-color": "#fff",
+    "width": "mapData(weight, 0, 1, 1, 2)",
+    "overlay-padding": "3px"
+  }
+}, {
+  "selector": "node.unhighlighted",
+  "style": {
+    "opacity": "0.2"
+  }
+}, {
+  "selector": "edge.unhighlighted",
+  "style": {
+    "opacity": "1"
+  }
+}, {
+  "selector": ".highlighted",
+  "style": {
+    "z-index": "999999"
+  }
+}, {
+  "selector": "node.highlighted",
+  "style": {
+    "border-width": "6px",
+    "border-color": "#AAD8FF",
+    "border-opacity": "0.5",
+    "background-color": "#394855",
+    "text-outline-color": "#394855"
+  }
+}, {
+  "selector": "edge.filtered",
+  "style": {
+    "opacity": "0"
+  }
+}, {
+  "selector": "edge[group=\"pro\"]",
+  "style": {
+    "line-color": "#164C45",
+    "label": "data(label)",
+    "label-align": "bottom",
+    "text-outline-color": "#555",
+    "text-outline-width": "2px",
+    "target-arrow-fill": "filled",
+    "target-arrow-color": "#164C45",
+    "color": "#fff",
+    "font-size": "10px",
+    "width": "data(score)"
+
+  }
+}, {
+  "selector": "edge[group=\"priv\"]",
+  "style": {
+    "line-color": "#BDA523",
+    "label": "data(label)",
+    "width": "data(score)",
+    "target-arrow-fill": "filled",
+    "target-arrow-color": "#BDA523",
+    "text-outline-color": "#555",
+    "text-outline-width": "2px",
+    "font-size": "10px",
+    "color": "#fff"
+  }
+}
+]
