@@ -25,10 +25,10 @@ html {
     top: 0;
     bottom: 0;
     width: 22em;
-    background: rgba(1, 1, 1);
+    background: #16232E;
     box-sizing: border-box;
     padding: 1em;
-    color: #fff;
+    color: #E3C75F;
     transition-property: opacity;
     transition-duration: 250ms;
     transition-timing-function: ease-out;
@@ -45,8 +45,8 @@ html {
   }
   
   p {
-    margin: 0.5em 0;
-    font-size: 0.8em;
+    margin: 1em 0;
+    /* font-size: 0.8em; */
   }
   
   .param button {
@@ -62,8 +62,37 @@ html {
   
   .label {
     display: block;
-    padding-bottom: 10px;
+    padding-top: 0.5em; 
   }
+
+  .label#priv {
+    
+        /* Other styling... */
+        text-align: right;
+        clear: both;
+        float:left;
+        margin-right:0.5em;
+        width: 6em;
+    
+  }
+
+  .label#pro {
+    text-align: right;
+    float:left;
+    clear: both;
+    margin-right:0.5em;
+    width: 6em;
+}
+
+.prodiv{
+    margin-top:10px;
+
+}
+
+.label-reload{
+    margin-right:0.5em;
+}
+
   
   .slider {
     display: block;

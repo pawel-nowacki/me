@@ -19,6 +19,24 @@
   },
   {
     "data": {
+      "id": "tableau",
+      "name": "Tableau",
+      "private": false
+    },
+    "position": {
+      "x": 481.0169597039117,
+      "y": 384.8210888234145
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
       "id": "bi",
       "name": "Business Intelligence",
       "private": false
@@ -40,6 +58,24 @@
       "id": "js",
       "name": "JavaScript",
       "private": false
+    },
+    "position": {
+      "x": 531.9740635094307,
+      "y": 464.8210898234145
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "id": "rollerblades",
+      "name": "roller blades",
+      "private": true
     },
     "position": {
       "x": 531.9740635094307,
@@ -130,7 +166,7 @@
       "source": "pawel",
       "target": "bi",
       "weight": 1,
-      "score": 1,
+      "score": 4,
       "group": "pro",
       "id": "e0",
       "label": "knows"
@@ -149,7 +185,7 @@
       "source": "pawel",
       "target": "js",
       "weight": 1,
-      "score": 6,
+      "score": 7,
       "group": "pro",
       "id": "e1",
       "label": "knows"
@@ -168,9 +204,10 @@
       "source": "pawel",
       "target": "ux",
       "weight": 1,
-      "score": 1,
+      "score": 3,
       "group": "pro",
-      "id": "e3"
+      "id": "e3",
+      "label": "knows"
     },
     "position": {},
     "group": "edges",
@@ -187,7 +224,7 @@
       "source": "pawel",
       "target": "py",
       "weight": 1,
-      "score": 2,
+      "score": 5,
       "group": "pro",
       "id": "e4",
       "label": "knows"
@@ -206,7 +243,7 @@
       "source": "pawel",
       "target": "py",
       "weight": 1,
-      "score": 4,
+      "score": 6,
       "group": "pro",
       "id": "e5",
       "label": "likes"
@@ -244,7 +281,7 @@
       "source": "pawel",
       "target": "r",
       "weight": 1,
-      "score": 6,
+      "score": 4,
       "group": "pro",
       "id": "e7",
       "label": "likes"
@@ -314,5 +351,121 @@
     "locked": false,
     "grabbed": false,
     "grabbable": true
+  },
+  
+  {
+    "data": {
+      "source": "pawel",
+      "target": "rollerblades",
+      "weight": 1,
+      "score": 10,
+      "group": "priv",
+      "id": "e11",
+      "label": "likes"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "rollerblades",
+      "weight": 1,
+      "score": 6,
+      "group": "priv",
+      "id": "e12",
+      "label": "knows"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "tableau",
+      "weight": 1,
+      "score": 3,
+      "group": "pro",
+      "id": "e13",
+      "label": "knows"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "tableau",
+      "weight": 1,
+      "score": 3,
+      "group": "pro",
+      "id": "e14",
+      "label": "likes"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },{
+    "data": {
+      "source": "pawel",
+      "target": "ux",
+      "weight": 1,
+      "score": 5,
+      "group": "pro",
+      "id": "e15",
+      "label": "likes"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "bi",
+      "weight": 1,
+      "score": 3,
+      "group": "pro",
+      "id": "e16",
+      "label": "likes"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true,
+    "classes": ""
   }
 ]

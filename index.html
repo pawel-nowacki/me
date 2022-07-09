@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset=utf-8 />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+    <meta name="viewport"
+        content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
 
     <title>Pawel Nowacki</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet" />
 
     <!-- polyfills so the demo works on old browsers, like IE -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.2.20171210/classList.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.2.20171210/classList.min.js"></script>
     <script src="https://unpkg.com/bluebird@3.5.2/js/browser/bluebird.js"></script>
     <script src="https://unpkg.com/whatwg-fetch@3.0.0/dist/fetch.umd.js"></script>
 
@@ -26,32 +28,46 @@
 
     <!-- demo src-->
     <script src="code.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="cy"></div>
 
     <span class="fa fa-bars config-toggle" id="config-toggle"></span>
 
     <div id="config" class="config">
 
-      <div class="preamble">
-        <span class="label label-info">About me</span>
-        <div class="image-cropper">
-            <img src="profile.jpg" class="rounded" />
-          </div>
-        <p>Have a look at my graph representation
-        <p>
-          You can filter out things below:
+        <div class="preamble">
+            <span class="label label-info">About me</span>
+            <div class="image-cropper">
+                <img src="profile.jpg" class="rounded" />
+            </div>
+            <p>Here is what I know and like :)
+                Width of the connection represents the level of knowledge/likeliness.
+                <hr>
 
+                <label class="label label-default" for="privateclass" id="priv">Private:</label>
+                <label class="switch">
+                    <input type="checkbox" id="privs">
+                    <span class="sliderfilter round privateclass"></span>
+                </label>
+               
+                <br>
 
-        </p>
+                <div class="prodiv">
+                <label class="label label-default" for="proclass" id="pro">Professional:</label>
+                <label class="switch">
+                    
+                    <input type="checkbox" id="pros">
+                    <span class="sliderfilter round proclass"></span>
+                </label>
+              </div>
 
-        <label class="switch" >
-            <input type="checkbox" id="filter"> 
-            <span class="sliderfilter round"></span>
-          </label>
-      </div>
+              <hr>
+
+        </div>
 
     </div>
-  </body>
+</body>
+
 </html>
