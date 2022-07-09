@@ -19,6 +19,60 @@
   },
   {
     "data": {
+      "id": "comics",
+      "name": "Comics",
+      "private": true
+    },
+    "position": {
+      "x": 481.0169597039117,
+      "y": 384.8210888234145
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "id": "dv",
+      "name": "Data Visualization",
+      "private": false
+    },
+    "position": {
+      "x": 481.0169597039117,
+      "y": 384.8210888234145
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
+      "id": "d3",
+      "name": "D3.js",
+      "private": false
+    },
+    "position": {
+      "x": 481.0169597039117,
+      "y": 384.8210888234145
+    },
+    "group": "nodes",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true
+  },
+  {
+    "data": {
       "id": "tableau",
       "name": "Tableau",
       "private": false
@@ -166,7 +220,7 @@
       "source": "pawel",
       "target": "bi",
       "weight": 1,
-      "score": 4,
+      "score": 5,
       "group": "pro",
       "id": "e0",
       "label": "knows"
@@ -185,7 +239,7 @@
       "source": "pawel",
       "target": "js",
       "weight": 1,
-      "score": 7,
+      "score": 9,
       "group": "pro",
       "id": "e1",
       "label": "knows"
@@ -204,7 +258,7 @@
       "source": "pawel",
       "target": "ux",
       "weight": 1,
-      "score": 3,
+      "score": 5,
       "group": "pro",
       "id": "e3",
       "label": "knows"
@@ -224,7 +278,7 @@
       "source": "pawel",
       "target": "py",
       "weight": 1,
-      "score": 5,
+      "score": 6,
       "group": "pro",
       "id": "e4",
       "label": "knows"
@@ -243,7 +297,7 @@
       "source": "pawel",
       "target": "py",
       "weight": 1,
-      "score": 6,
+      "score": 10,
       "group": "pro",
       "id": "e5",
       "label": "likes"
@@ -262,7 +316,7 @@
       "source": "pawel",
       "target": "r",
       "weight": 1,
-      "score": 2,
+      "score": 4,
       "group": "pro",
       "id": "e6",
       "label": "knows"
@@ -281,7 +335,7 @@
       "source": "pawel",
       "target": "r",
       "weight": 1,
-      "score": 4,
+      "score": 9,
       "group": "pro",
       "id": "e7",
       "label": "likes"
@@ -300,7 +354,7 @@
       "source": "pawel",
       "target": "js",
       "weight": 1,
-      "score": 6,
+      "score": 10,
       "group": "pro",
       "id": "e8",
       "label": "likes"
@@ -319,7 +373,7 @@
       "source": "pawel",
       "target": "illustrations",
       "weight": 1,
-      "score": 10,
+      "score": 9,
       "group": "priv",
       "id": "e9",
       "label": "knows"
@@ -377,7 +431,7 @@
       "source": "pawel",
       "target": "rollerblades",
       "weight": 1,
-      "score": 6,
+      "score": 7,
       "group": "priv",
       "id": "e12",
       "label": "knows"
@@ -396,7 +450,7 @@
       "source": "pawel",
       "target": "tableau",
       "weight": 1,
-      "score": 3,
+      "score": 4,
       "group": "pro",
       "id": "e13",
       "label": "knows"
@@ -415,7 +469,7 @@
       "source": "pawel",
       "target": "tableau",
       "weight": 1,
-      "score": 3,
+      "score": 4,
       "group": "pro",
       "id": "e14",
       "label": "likes"
@@ -433,7 +487,7 @@
       "source": "pawel",
       "target": "ux",
       "weight": 1,
-      "score": 5,
+      "score": 9,
       "group": "pro",
       "id": "e15",
       "label": "likes"
@@ -453,10 +507,130 @@
       "source": "pawel",
       "target": "bi",
       "weight": 1,
-      "score": 3,
+      "score": 7,
       "group": "pro",
       "id": "e16",
       "label": "likes"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "d3",
+      "weight": 1,
+      "score": 10,
+      "group": "pro",
+      "id": "e17",
+      "label": "likes"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "d3",
+      "weight": 1,
+      "score": 7,
+      "group": "pro",
+      "id": "e18",
+      "label": "knows"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "dv",
+      "weight": 1,
+      "score": 10,
+      "group": "pro",
+      "id": "e19",
+      "label": "likes"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "dv",
+      "weight": 1,
+      "score": 8,
+      "group": "pro",
+      "id": "e20",
+      "label": "knows"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "comics",
+      "weight": 1,
+      "score": 10,
+      "group": "priv",
+      "id": "e21",
+      "label": "likes"
+    },
+    "position": {},
+    "group": "edges",
+    "removed": false,
+    "selected": false,
+    "selectable": true,
+    "locked": false,
+    "grabbed": false,
+    "grabbable": true,
+    "classes": ""
+  },
+  {
+    "data": {
+      "source": "pawel",
+      "target": "comics",
+      "weight": 1,
+      "score": 7,
+      "group": "priv",
+      "id": "e22",
+      "label": "knows"
     },
     "position": {},
     "group": "edges",
