@@ -248,18 +248,19 @@ Promise.all([
             //     return h('a', { target: '_blank', href: link.url, 'class': 'tip-link' }, [t(link.name)]);
             // });
 
-            var tippy = makeTippy(n, h('div', {}, $links));
+            // var tippy = makeTippy(n, h('div', {}, $links));
 
-            n.data('tippy', tippy);
+            // n.data('tippy', tippy);
 
-            n.on('click', function (e) {
-                tippy.show();
+            // n.on('click', function (e) {
+            //     tippy.show();
 
-                cy.nodes().not(n).forEach(hideTippy);
-            });
+            //     cy.nodes().not(n).forEach(hideTippy);
+            // });
         });
 
         $('#config-toggle').addEventListener('click', function () {
+            
             $('body').classList.toggle('config-closed');
 
             cy.resize();
